@@ -5,13 +5,15 @@ public class MainApp {
     t.informasi();
     t.berlayar();
     t.berlabuh();
+    System.out.println("");
 
     Sampan s = new Sampan(20, 50000, 2);
     s.informasi();
     s.berlayar();
     s.berlabuh();
     s.berlabuh(2);
-
+    System.out.println("");
+    
     Kapal k = new Kapal(50, 100000, "Diesel");
     k.informasi();
     k.berlayar();
