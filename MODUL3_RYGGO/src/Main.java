@@ -52,6 +52,7 @@ public class Main {
                 input.next();
             } catch (IllegalArgumentException e){
                 System.out.println(e.getMessage());
+            }
         } while (repeat);
         input.close();
     }

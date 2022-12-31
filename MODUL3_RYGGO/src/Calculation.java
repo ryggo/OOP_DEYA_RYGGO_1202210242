@@ -27,7 +27,7 @@ public class Calculation implements Runnable {
                 if (radius < 1){
                        throw new IllegalArgumentException("panjang radius tidak boleh kurang dari 1");
                 } else {
-                    area = phi * radius;
+                    area = phi * radius* radius;
                 }
             } catch (NumberFormatException e) {
                 e.printStackTrace();
